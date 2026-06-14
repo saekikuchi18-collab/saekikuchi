@@ -19,7 +19,7 @@ export function AboutSection() {
             <Reveal>
               <div className="aspect-[3/4] relative overflow-hidden rounded-lg bg-muted">
                 <Image
-                  src="/profile-pic.jpg"
+                  src="/projects/profile-pic.jpeg"
                   alt={site.name}
                   fill
                   className="object-cover"
