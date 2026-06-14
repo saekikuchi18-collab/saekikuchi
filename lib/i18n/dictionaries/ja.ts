@@ -1,46 +1,47 @@
 import type { Dictionary } from "./en";
+import ui from "@/content/ui.json";
 
 const ja: Dictionary = {
   nav: {
-    about: "私について",
-    services: "サービス",
-    work: "実績",
-    archive: "アーカイブ",
-    contact: "お問い合わせ",
+    about: ui.nav_about_ja,
+    services: ui.nav_services_ja,
+    work: ui.nav_work_ja,
+    archive: ui.nav_archive_ja,
+    contact: ui.nav_contact_ja,
   },
   hero: {
-    seeWork: "実績を見る",
+    seeWork: ui.hero_seeWork_ja,
   },
   about: {
-    heading: "私について",
+    heading: ui.about_heading_ja,
   },
   services: {
-    heading: "サービス",
-    subheading: "ブランドライフサイクルのあらゆる段階における戦略的コミュニケーション",
+    heading: ui.services_heading_ja,
+    subheading: ui.services_subheading_ja,
   },
   work: {
-    heading: "厳選された実績",
-    subheading: "最近のプロジェクト",
-    viewAll: "すべて見る",
-    viewAllProjects: "すべてのプロジェクトを見る",
+    heading: ui.work_heading_ja,
+    subheading: ui.work_subheading_ja,
+    viewAll: ui.work_viewAll_ja,
+    viewAllProjects: ui.work_viewAllProjects_ja,
   },
   archive: {
-    heading: "アーカイブ",
-    title: "全プロジェクト",
-    all: "すべて",
+    heading: ui.archive_heading_ja,
+    title: ui.archive_title_ja,
+    all: ui.archive_all_ja,
   },
   contact: {
-    heading: "お問い合わせ",
-    title: "伝えるべきストーリーがありますか？",
-    titleLine2: "一緒に届けましょう。",
+    heading: ui.contact_heading_ja,
+    title: ui.contact_title_ja,
+    titleLine2: ui.contact_titleLine2_ja,
   },
   project: {
-    backToArchive: "アーカイブに戻る",
-    viewCoverage: "掲載記事を見る",
-    notFound: "プロジェクトが見つかりません。",
+    backToArchive: ui.project_backToArchive_ja,
+    viewCoverage: ui.project_viewCoverage_ja,
+    notFound: ui.project_notFound_ja,
   },
   footer: {
-    rights: "無断転載禁止",
+    rights: ui.footer_rights_ja,
   },
   language: {
     en: "English",

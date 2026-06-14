@@ -35,6 +35,60 @@ collections:
               - { label: "Description", name: "description", widget: "text" }
               - { label: "Description (Japanese)", name: "description_ja", widget: "text" }
 
+  - name: ui
+    label: "Page Headings & UI Text"
+    files:
+      - name: ui-text
+        label: "Headings & Labels"
+        file: content/ui.json
+        fields:
+          - { label: "Nav - About", name: "nav_about", widget: "string" }
+          - { label: "Nav - About (JA)", name: "nav_about_ja", widget: "string" }
+          - { label: "Nav - Services", name: "nav_services", widget: "string" }
+          - { label: "Nav - Services (JA)", name: "nav_services_ja", widget: "string" }
+          - { label: "Nav - Work", name: "nav_work", widget: "string" }
+          - { label: "Nav - Work (JA)", name: "nav_work_ja", widget: "string" }
+          - { label: "Nav - Archive", name: "nav_archive", widget: "string" }
+          - { label: "Nav - Archive (JA)", name: "nav_archive_ja", widget: "string" }
+          - { label: "Nav - Contact", name: "nav_contact", widget: "string" }
+          - { label: "Nav - Contact (JA)", name: "nav_contact_ja", widget: "string" }
+          - { label: "Hero - See Work Button", name: "hero_seeWork", widget: "string" }
+          - { label: "Hero - See Work Button (JA)", name: "hero_seeWork_ja", widget: "string" }
+          - { label: "About - Heading", name: "about_heading", widget: "string" }
+          - { label: "About - Heading (JA)", name: "about_heading_ja", widget: "string" }
+          - { label: "Services - Heading", name: "services_heading", widget: "string" }
+          - { label: "Services - Heading (JA)", name: "services_heading_ja", widget: "string" }
+          - { label: "Services - Subheading", name: "services_subheading", widget: "string" }
+          - { label: "Services - Subheading (JA)", name: "services_subheading_ja", widget: "string" }
+          - { label: "Work - Heading", name: "work_heading", widget: "string" }
+          - { label: "Work - Heading (JA)", name: "work_heading_ja", widget: "string" }
+          - { label: "Work - Subheading", name: "work_subheading", widget: "string" }
+          - { label: "Work - Subheading (JA)", name: "work_subheading_ja", widget: "string" }
+          - { label: "Work - View All", name: "work_viewAll", widget: "string" }
+          - { label: "Work - View All (JA)", name: "work_viewAll_ja", widget: "string" }
+          - { label: "Work - View All Projects", name: "work_viewAllProjects", widget: "string" }
+          - { label: "Work - View All Projects (JA)", name: "work_viewAllProjects_ja", widget: "string" }
+          - { label: "Archive - Heading", name: "archive_heading", widget: "string" }
+          - { label: "Archive - Heading (JA)", name: "archive_heading_ja", widget: "string" }
+          - { label: "Archive - Title", name: "archive_title", widget: "string" }
+          - { label: "Archive - Title (JA)", name: "archive_title_ja", widget: "string" }
+          - { label: "Archive - All", name: "archive_all", widget: "string" }
+          - { label: "Archive - All (JA)", name: "archive_all_ja", widget: "string" }
+          - { label: "Contact - Heading", name: "contact_heading", widget: "string" }
+          - { label: "Contact - Heading (JA)", name: "contact_heading_ja", widget: "string" }
+          - { label: "Contact - Title", name: "contact_title", widget: "string" }
+          - { label: "Contact - Title (JA)", name: "contact_title_ja", widget: "string" }
+          - { label: "Contact - Title Line 2", name: "contact_titleLine2", widget: "string" }
+          - { label: "Contact - Title Line 2 (JA)", name: "contact_titleLine2_ja", widget: "string" }
+          - { label: "Project - Back to Archive", name: "project_backToArchive", widget: "string" }
+          - { label: "Project - Back to Archive (JA)", name: "project_backToArchive_ja", widget: "string" }
+          - { label: "Project - View Coverage", name: "project_viewCoverage", widget: "string" }
+          - { label: "Project - View Coverage (JA)", name: "project_viewCoverage_ja", widget: "string" }
+          - { label: "Project - Not Found", name: "project_notFound", widget: "string" }
+          - { label: "Project - Not Found (JA)", name: "project_notFound_ja", widget: "string" }
+          - { label: "Footer - Rights", name: "footer_rights", widget: "string" }
+          - { label: "Footer - Rights (JA)", name: "footer_rights_ja", widget: "string" }
+
   - name: projects
     label: "Projects"
     files:

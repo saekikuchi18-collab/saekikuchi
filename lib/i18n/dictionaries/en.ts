@@ -1,44 +1,46 @@
+import ui from "@/content/ui.json";
+
 const en = {
   nav: {
-    about: "About",
-    services: "Services",
-    work: "Work",
-    archive: "Archive",
-    contact: "Contact",
+    about: ui.nav_about,
+    services: ui.nav_services,
+    work: ui.nav_work,
+    archive: ui.nav_archive,
+    contact: ui.nav_contact,
   },
   hero: {
-    seeWork: "See the work",
+    seeWork: ui.hero_seeWork,
   },
   about: {
-    heading: "About",
+    heading: ui.about_heading,
   },
   services: {
-    heading: "Services",
-    subheading: "Strategic comms across every stage of the brand lifecycle.",
+    heading: ui.services_heading,
+    subheading: ui.services_subheading,
   },
   work: {
-    heading: "Selected Work",
-    subheading: "Recent projects",
-    viewAll: "View all",
-    viewAllProjects: "View all projects",
+    heading: ui.work_heading,
+    subheading: ui.work_subheading,
+    viewAll: ui.work_viewAll,
+    viewAllProjects: ui.work_viewAllProjects,
   },
   archive: {
-    heading: "Archive",
-    title: "All projects",
-    all: "All",
+    heading: ui.archive_heading,
+    title: ui.archive_title,
+    all: ui.archive_all,
   },
   contact: {
-    heading: "Get in touch",
-    title: "Have a story worth telling?",
-    titleLine2: "Let's make it heard.",
+    heading: ui.contact_heading,
+    title: ui.contact_title,
+    titleLine2: ui.contact_titleLine2,
   },
   project: {
-    backToArchive: "Back to archive",
-    viewCoverage: "View coverage",
-    notFound: "Project not found.",
+    backToArchive: ui.project_backToArchive,
+    viewCoverage: ui.project_viewCoverage,
+    notFound: ui.project_notFound,
   },
   footer: {
-    rights: "All rights reserved.",
+    rights: ui.footer_rights,
   },
   language: {
     en: "English",
