@@ -1,5 +1,7 @@
 import { z } from "zod/v4";
-import projectsJson from "./projects.json";
+import projectsFile from "./projects.json";
+
+const projectsJson = projectsFile.projects;
 
 export const projectCategories = [
   "Brand Launch",

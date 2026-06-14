@@ -1,6 +1,8 @@
 import type { Locale } from "@/lib/i18n";
 import type { ProjectCategory } from "./projects";
-import projectsJson from "./projects.json";
+import projectsFile from "./projects.json";
+
+const projectsJson = projectsFile.projects;
 
 type LocalizedProject = {
   title: string;

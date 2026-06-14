@@ -37,25 +37,30 @@ collections:
 
   - name: projects
     label: "Projects"
-    label_singular: "Project"
-    file: content/projects.json
-    widget: "list"
-    fields:
-      - { label: "ID (URL slug)", name: "id", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Title (Japanese)", name: "title_ja", widget: "string" }
-      - { label: "Client", name: "client", widget: "string" }
-      - label: "Category"
-        name: "category"
-        widget: "select"
-        options: ["Brand Launch", "Crisis Comms", "Campaign", "Event", "Media Relations"]
-      - { label: "Year", name: "year", widget: "number", value_type: "int" }
-      - { label: "Featured", name: "featured", widget: "boolean", default: true }
-      - { label: "Cover Image", name: "coverImage", widget: "image" }
-      - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Summary (Japanese)", name: "summary_ja", widget: "text" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Description (Japanese)", name: "description_ja", widget: "text" }
-      - { label: "Results", name: "results", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
-      - { label: "Results (Japanese)", name: "results_ja", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
-      - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" } }
+    files:
+      - name: project-list
+        label: "All Projects"
+        file: content/projects.json
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "ID (URL slug)", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Title (Japanese)", name: "title_ja", widget: "string" }
+              - { label: "Client", name: "client", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Brand Launch", "Crisis Comms", "Campaign", "Event", "Media Relations"]
+              - { label: "Year", name: "year", widget: "number", value_type: "int" }
+              - { label: "Featured", name: "featured", widget: "boolean", default: true }
+              - { label: "Cover Image", name: "coverImage", widget: "image" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Summary (Japanese)", name: "summary_ja", widget: "text" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Description (Japanese)", name: "description_ja", widget: "text" }
+              - { label: "Results", name: "results", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
+              - { label: "Results (Japanese)", name: "results_ja", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
+              - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" } }
