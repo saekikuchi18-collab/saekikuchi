@@ -1,0 +1,41 @@
+{
+  "name": "Sae Kikuchi",
+  "name_ja": "菊地 紗瑛",
+  "tagline": "Strategic communications that bridge cultures.",
+  "tagline_ja": "文化を越えるコミュニケーション戦略。",
+  "positioning": "PR consultant and communications strategist helping brands build meaningful connections across global markets. Based in Japan with international experience spanning Asia, the US, and Europe — I bridge cultural and market differences to create communications that resonate.",
+  "positioning_ja": "企業やブランドのPR、コミュニケーション戦略、コンテンツ制作、イベント企画まで幅広く支援。文化や市場の違いを越えて人・ブランド・コミュニティをつなぐコミュニケーション設計を行っています。",
+  "bio": "With over 7 years in the industry and more than 50 clients served, I help companies and brands build meaningful connections through strategic communications, media relations, content development, and event planning. Having worked across Japan and international markets spanning Asia, the US, and Europe, I bring a truly global perspective to communications and cross-cultural brand building.\n\nI started my career at the largest PR firm in Asia, where I developed deep expertise in strategic communications at scale. I later served as PR and Marketing Director of a Hawaiian branch, leading tourism, hospitality, and lifestyle marketing initiatives.\n\nMy experience spans technology, AI, tourism, hospitality, luxury goods, lifestyle brands, culture-driven businesses, and B2B companies. I specialize in helping international companies enter the Japanese market, supporting Japanese brands in global communications, and building credibility through strategic storytelling and community development.",
+  "bio_ja": "日本と海外での経験を活かし、企業やブランドのPR、コミュニケーション戦略、コンテンツ制作、イベント企画まで幅広く支援しています。テクノロジー、AI、観光、ホスピタリティ、ラグジュアリー、ライフスタイル、カルチャー領域など、多様な業界の企業やブランドを担当してきました。\n\n海外企業の日本市場進出支援、日本企業の海外向けコミュニケーション支援、BtoB企業の信頼構築、カルチャー・コミュニティ発のブランド成長支援などを得意としています。英語と日本語を活用しながら、文化や市場の違いを越えて人・ブランド・コミュニティをつなぐコミュニケーション設計を行っています。",
+  "personalDetail": "Former DJ in Hawaii, vintage watch enthusiast, and always looking for the next great cultural intersection.",
+  "personalDetail_ja": "ハワイでDJとして活動していた経験あり。ヴィンテージ時計好き。カルチャーの交差点を常に探しています。",
+  "email": "saekikuchi.18@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/saekikuchi",
+  "instagram": "https://instagram.com/saemeroo",
+  "services": [
+    {
+      "title": "Brand & Communications Strategy",
+      "title_ja": "ブランド・コミュニケーション戦略",
+      "description": "Brand storytelling, messaging development, positioning strategy, market localization, and communications planning — built around your business goals.",
+      "description_ja": "ブランドストーリー設計、メッセージ開発、ポジショニング設計、日本市場向けローカライズ、コミュニケーション戦略立案。"
+    },
+    {
+      "title": "PR & Media Relations",
+      "title_ja": "PR・メディアリレーション",
+      "description": "PR strategy, media outreach, interview placements, press engagement, and media event planning to build sustained visibility.",
+      "description_ja": "広報戦略立案、メディア戦略設計、記者アプローチ、取材獲得、メディア向けイベント企画。"
+    },
+    {
+      "title": "Content & Social Media",
+      "title_ja": "コンテンツ・SNS",
+      "description": "Press releases, editorial content, social media strategy, content planning, English–Japanese copywriting, and localization.",
+      "description_ja": "プレスリリース作成、オウンドメディア記事制作、SNSコンテンツ企画、コンテンツ戦略設計、日英コピーライティング・翻訳。"
+    },
+    {
+      "title": "Events & Community Building",
+      "title_ja": "イベント・コミュニティ",
+      "description": "Brand activations, pop-up experiences, community engagement, partnership development, and influencer and creator collaborations.",
+      "description_ja": "ブランドイベント企画、ポップアップ企画、コミュニティ施策、パートナーシップ開発、インフルエンサー・クリエイター連携。"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect fill="#e8e6df" width="1600" height="1200"/>
+  <rect fill="#d4d2c8" x="100" y="100" width="1400" height="1000" rx="8"/>
+  <text x="800" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#5c5a50">Pavilion Gallery</text>
+  <text x="800" y="640" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" fill="#7c7a70">Event Strategy</text>
+</svg>

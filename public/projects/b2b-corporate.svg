@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c1821"/>
+      <stop offset="100%" stop-color="#1b2838"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1e88e5"/>
+      <stop offset="100%" stop-color="#64b5f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <!-- Grid lines -->
+  <line x1="200" y1="200" x2="200" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="400" y1="200" x2="400" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="600" y1="200" x2="600" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="800" y1="200" x2="800" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="1000" y1="200" x2="1000" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="1200" y1="200" x2="1200" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="1400" y1="200" x2="1400" y2="1000" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="200" y1="400" x2="1400" y2="400" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="200" y1="600" x2="1400" y2="600" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <line x1="200" y1="800" x2="1400" y2="800" stroke="white" stroke-width="0.5" opacity="0.05"/>
+  <!-- Rising chart bars -->
+  <rect x="350" y="700" width="60" height="250" fill="url(#bar)" opacity="0.5" rx="4"/>
+  <rect x="500" y="600" width="60" height="350" fill="url(#bar)" opacity="0.55" rx="4"/>
+  <rect x="650" y="520" width="60" height="430" fill="url(#bar)" opacity="0.6" rx="4"/>
+  <rect x="800" y="450" width="60" height="500" fill="url(#bar)" opacity="0.65" rx="4"/>
+  <rect x="950" y="380" width="60" height="570" fill="url(#bar)" opacity="0.7" rx="4"/>
+  <rect x="1100" y="300" width="60" height="650" fill="url(#bar)" opacity="0.8" rx="4"/>
+  <!-- Trend line -->
+  <polyline points="380,690 530,590 680,510 830,440 980,370 1130,290" fill="none" stroke="#64b5f6" stroke-width="2.5" opacity="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trend line dots -->
+  <circle cx="380" cy="690" r="5" fill="#64b5f6" opacity="0.9"/>
+  <circle cx="530" cy="590" r="5" fill="#64b5f6" opacity="0.9"/>
+  <circle cx="680" cy="510" r="5" fill="#64b5f6" opacity="0.9"/>
+  <circle cx="830" cy="440" r="5" fill="#64b5f6" opacity="0.9"/>
+  <circle cx="980" cy="370" r="5" fill="#64b5f6" opacity="0.9"/>
+  <circle cx="1130" cy="290" r="6" fill="#64b5f6" opacity="1"/>
+  <!-- Building silhouettes in background -->
+  <rect x="1250" y="500" width="80" height="450" fill="white" opacity="0.03" rx="2"/>
+  <rect x="1340" y="600" width="60" height="350" fill="white" opacity="0.03" rx="2"/>
+  <rect x="1410" y="550" width="70" height="400" fill="white" opacity="0.025" rx="2"/>
+  <rect x="150" y="650" width="50" height="300" fill="white" opacity="0.025" rx="2"/>
+  <rect x="210" y="700" width="40" height="250" fill="white" opacity="0.02" rx="2"/>
+</svg>

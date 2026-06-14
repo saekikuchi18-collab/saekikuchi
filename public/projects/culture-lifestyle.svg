@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#11001c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#feca57"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <!-- Abstract community circles -->
+  <circle cx="800" cy="600" r="250" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.3"/>
+  <circle cx="800" cy="600" r="180" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="800" cy="600" r="320" fill="none" stroke="url(#accent)" stroke-width="1" opacity="0.15"/>
+  <!-- People silhouettes - community -->
+  <circle cx="650" cy="550" r="25" fill="#ff6b6b" opacity="0.6"/>
+  <rect x="635" y="580" width="30" height="50" fill="#ff6b6b" opacity="0.4" rx="15"/>
+  <circle cx="950" cy="560" r="25" fill="#feca57" opacity="0.6"/>
+  <rect x="935" y="590" width="30" height="50" fill="#feca57" opacity="0.4" rx="15"/>
+  <circle cx="800" cy="480" r="28" fill="#ff9ff3" opacity="0.6"/>
+  <rect x="784" y="512" width="32" height="55" fill="#ff9ff3" opacity="0.4" rx="16"/>
+  <circle cx="720" cy="700" r="22" fill="#48dbfb" opacity="0.6"/>
+  <rect x="707" y="726" width="26" height="45" fill="#48dbfb" opacity="0.4" rx="13"/>
+  <circle cx="900" cy="690" r="22" fill="#ff6b6b" opacity="0.5"/>
+  <rect x="887" y="716" width="26" height="45" fill="#ff6b6b" opacity="0.3" rx="13"/>
+  <!-- Connection lines between people -->
+  <line x1="650" y1="550" x2="800" y2="480" stroke="white" stroke-width="0.8" opacity="0.2"/>
+  <line x1="950" y1="560" x2="800" y2="480" stroke="white" stroke-width="0.8" opacity="0.2"/>
+  <line x1="650" y1="550" x2="720" y2="700" stroke="white" stroke-width="0.8" opacity="0.15"/>
+  <line x1="950" y1="560" x2="900" y2="690" stroke="white" stroke-width="0.8" opacity="0.15"/>
+  <line x1="720" y1="700" x2="900" y2="690" stroke="white" stroke-width="0.8" opacity="0.15"/>
+  <!-- Floating elements - lifestyle/culture -->
+  <rect x="350" y="300" width="80" height="100" fill="none" stroke="white" stroke-width="1" opacity="0.15" rx="4"/>
+  <rect x="1170" y="280" width="80" height="100" fill="none" stroke="white" stroke-width="1" opacity="0.15" rx="4"/>
+  <rect x="250" y="800" width="60" height="80" fill="none" stroke="white" stroke-width="1" opacity="0.1" rx="3"/>
+  <rect x="1300" y="820" width="60" height="80" fill="none" stroke="white" stroke-width="1" opacity="0.1" rx="3"/>
+  <!-- Decorative particles -->
+  <circle cx="400" cy="200" r="3" fill="#feca57" opacity="0.4"/>
+  <circle cx="1200" cy="180" r="2" fill="#ff6b6b" opacity="0.3"/>
+  <circle cx="300" cy="600" r="2" fill="#48dbfb" opacity="0.3"/>
+  <circle cx="1350" cy="550" r="3" fill="#ff9ff3" opacity="0.3"/>
+  <circle cx="500" cy="900" r="2" fill="#feca57" opacity="0.3"/>
+  <circle cx="1100" cy="950" r="2" fill="#ff6b6b" opacity="0.25"/>
+</svg>

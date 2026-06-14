@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/projects
+public_folder: /projects
+
+collections:
+  - name: site
+    label: "Site Settings"
+    files:
+      - name: settings
+        label: "Site Settings"
+        file: content/site.json
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Name (Japanese)", name: "name_ja", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Tagline (Japanese)", name: "tagline_ja", widget: "string" }
+          - { label: "Positioning", name: "positioning", widget: "text" }
+          - { label: "Positioning (Japanese)", name: "positioning_ja", widget: "text" }
+          - { label: "Bio", name: "bio", widget: "text" }
+          - { label: "Bio (Japanese)", name: "bio_ja", widget: "text" }
+          - { label: "Personal Detail", name: "personalDetail", widget: "string" }
+          - { label: "Personal Detail (Japanese)", name: "personalDetail_ja", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string" }
+          - { label: "Instagram URL", name: "instagram", widget: "string" }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Title (Japanese)", name: "title_ja", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Description (Japanese)", name: "description_ja", widget: "text" }
+
+  - name: projects
+    label: "Projects"
+    label_singular: "Project"
+    file: content/projects.json
+    widget: "list"
+    fields:
+      - { label: "ID (URL slug)", name: "id", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title (Japanese)", name: "title_ja", widget: "string" }
+      - { label: "Client", name: "client", widget: "string" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Brand Launch", "Crisis Comms", "Campaign", "Event", "Media Relations"]
+      - { label: "Year", name: "year", widget: "number", value_type: "int" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: true }
+      - { label: "Cover Image", name: "coverImage", widget: "image" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Summary (Japanese)", name: "summary_ja", widget: "text" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Description (Japanese)", name: "description_ja", widget: "text" }
+      - { label: "Results", name: "results", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
+      - { label: "Results (Japanese)", name: "results_ja", widget: "list", field: { label: "Result", name: "result", widget: "string" } }
+      - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" } }

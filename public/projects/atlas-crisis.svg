@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <rect fill="#dfe4e8" width="1600" height="1200"/>
+  <rect fill="#c8cfd4" x="100" y="100" width="1400" height="1000" rx="8"/>
+  <text x="800" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="64" fill="#505860">Atlas Financial</text>
+  <text x="800" y="640" text-anchor="middle" font-family="system-ui, sans-serif" font-size="32" fill="#707880">Crisis Communications</text>
+</svg>

@@ -1,0 +1,135 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-serif);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   LIGHT MODE — Warm cream editorial palette
+   Accent: Deep ink blue (editorial, confident)
+   ═══════════════════════════════════════════════════════════ */
+:root {
+  --background: oklch(0.98 0.004 80);
+  --foreground: oklch(0.18 0.01 260);
+  --surface: oklch(0.96 0.005 80);
+  --card: oklch(0.99 0.003 80);
+  --card-foreground: oklch(0.18 0.01 260);
+  --popover: oklch(0.99 0.003 80);
+  --popover-foreground: oklch(0.18 0.01 260);
+  --primary: oklch(0.35 0.08 255);
+  --primary-foreground: oklch(0.98 0.004 80);
+  --secondary: oklch(0.94 0.006 80);
+  --secondary-foreground: oklch(0.25 0.02 260);
+  --muted: oklch(0.94 0.006 80);
+  --muted-foreground: oklch(0.50 0.01 260);
+  --accent: oklch(0.35 0.08 255);
+  --accent-foreground: oklch(0.98 0.004 80);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.88 0.008 80);
+  --input: oklch(0.90 0.006 80);
+  --ring: oklch(0.35 0.08 255);
+  --radius: 0.5rem;
+
+  /* Fluid type scale */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+  --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+  --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+  --text-hero: clamp(3rem, 0.5rem + 7vw, 8rem);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DARK MODE — Rich dark editorial palette
+   ═══════════════════════════════════════════════════════════ */
+.dark {
+  --background: oklch(0.16 0.01 260);
+  --foreground: oklch(0.93 0.005 80);
+  --surface: oklch(0.20 0.012 260);
+  --card: oklch(0.22 0.012 260);
+  --card-foreground: oklch(0.93 0.005 80);
+  --popover: oklch(0.22 0.012 260);
+  --popover-foreground: oklch(0.93 0.005 80);
+  --primary: oklch(0.70 0.10 240);
+  --primary-foreground: oklch(0.16 0.01 260);
+  --secondary: oklch(0.25 0.015 260);
+  --secondary-foreground: oklch(0.90 0.005 80);
+  --muted: oklch(0.25 0.015 260);
+  --muted-foreground: oklch(0.65 0.01 80);
+  --accent: oklch(0.70 0.10 240);
+  --accent-foreground: oklch(0.16 0.01 260);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(0.30 0.015 260);
+  --input: oklch(0.28 0.015 260);
+  --ring: oklch(0.70 0.10 240);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-size: var(--text-base);
+    line-height: 1.6;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+    line-height: 1.1;
+  }
+}
+
+/* Ensure content is visible before JS hydration.
+   Framer Motion overrides these inline once it mounts. */
+@media (scripting: none) {
+  [style*="opacity:0"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+html:not([data-framer-hydrated]) [style*="opacity:0"] {
+  animation: fm-reveal 0s 0.1s both;
+}
+@keyframes fm-reveal {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

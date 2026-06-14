@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#F5E6A3"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="shelf" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  
+  <!-- Display case back wall -->
+  <rect x="100" y="100" width="1400" height="1000" fill="#0f0f1a" rx="4"/>
+  
+  <!-- Shelves -->
+  <rect x="150" y="350" width="1300" height="8" fill="url(#shelf)" rx="2"/>
+  <rect x="150" y="650" width="1300" height="8" fill="url(#shelf)" rx="2"/>
+  <rect x="150" y="950" width="1300" height="8" fill="url(#shelf)" rx="2"/>
+  
+  <!-- Ambient lighting strips -->
+  <rect x="150" y="345" width="1300" height="3" fill="#D4AF37" opacity="0.3"/>
+  <rect x="150" y="645" width="1300" height="3" fill="#D4AF37" opacity="0.3"/>
+  
+  <!-- Watch 1 - top left -->
+  <circle cx="350" cy="250" r="70" fill="none" stroke="url(#gold)" stroke-width="12"/>
+  <circle cx="350" cy="250" r="55" fill="#0a0a14"/>
+  <line x1="350" y1="250" x2="350" y2="210" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+  <line x1="350" y1="250" x2="380" y2="260" stroke="#D4AF37" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="350" cy="250" r="3" fill="#D4AF37"/>
+  <!-- Watch band -->
+  <rect x="338" y="165" width="24" height="30" fill="#2d2d2d" rx="3"/>
+  <rect x="338" y="305" width="24" height="30" fill="#2d2d2d" rx="3"/>
+  
+  <!-- Watch 2 - top center -->
+  <circle cx="700" cy="250" r="75" fill="none" stroke="#C0C0C0" stroke-width="14"/>
+  <circle cx="700" cy="250" r="58" fill="#1a1a2e"/>
+  <line x1="700" y1="250" x2="700" y2="205" stroke="#C0C0C0" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="700" y1="250" x2="725" y2="235" stroke="#C0C0C0" stroke-width="2" stroke-linecap="round"/>
+  <line x1="700" y1="250" x2="740" y2="255" stroke="#E0E0E0" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="700" cy="250" r="4" fill="#C0C0C0"/>
+  <rect x="686" y="158" width="28" height="32" fill="#4a4a4a" rx="3"/>
+  <rect x="686" y="310" width="28" height="32" fill="#4a4a4a" rx="3"/>
+  
+  <!-- Watch 3 - top right -->
+  <circle cx="1050" cy="250" r="68" fill="none" stroke="#B76E79" stroke-width="11"/>
+  <circle cx="1050" cy="250" r="54" fill="#0f0f1a"/>
+  <line x1="1050" y1="250" x2="1050" y2="215" stroke="#B76E79" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1050" y1="250" x2="1070" y2="270" stroke="#B76E79" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="1050" cy="250" r="3" fill="#B76E79"/>
+  <rect x="1038" y="168" width="24" height="28" fill="#3d2020" rx="3"/>
+  <rect x="1038" y="304" width="24" height="28" fill="#3d2020" rx="3"/>
+  
+  <!-- Watch 4 - middle row left -->
+  <circle cx="400" cy="520" r="72" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <circle cx="400" cy="520" r="58" fill="#0d0d18"/>
+  <line x1="400" y1="520" x2="400" y2="478" stroke="#F5E6A3" stroke-width="2" stroke-linecap="round"/>
+  <line x1="400" y1="520" x2="430" y2="530" stroke="#F5E6A3" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="400" cy="520" r="3" fill="#F5E6A3"/>
+  <rect x="387" y="432" width="26" height="30" fill="#1a1a1a" rx="3"/>
+  <rect x="387" y="578" width="26" height="30" fill="#1a1a1a" rx="3"/>
+  
+  <!-- Watch 5 - middle row center (featured, larger) -->
+  <circle cx="800" cy="510" r="90" fill="none" stroke="#C0C0C0" stroke-width="16"/>
+  <circle cx="800" cy="510" r="70" fill="#0a0a14"/>
+  <line x1="800" y1="510" x2="800" y2="455" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <line x1="800" y1="510" x2="840" y2="530" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="800" y1="510" x2="770" y2="545" stroke="#666" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="800" cy="510" r="5" fill="white"/>
+  <rect x="785" y="400" width="30" height="36" fill="#333" rx="4"/>
+  <rect x="785" y="584" width="30" height="36" fill="#333" rx="4"/>
+  
+  <!-- Watch 6 - middle row right -->
+  <circle cx="1200" cy="520" r="65" fill="none" stroke="#2d2d2d" stroke-width="15"/>
+  <circle cx="1200" cy="520" r="48" fill="#050510"/>
+  <line x1="1200" y1="520" x2="1200" y2="485" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+  <line x1="1200" y1="520" x2="1220" y2="535" stroke="#666" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="1200" cy="520" r="3" fill="#666"/>
+  <rect x="1188" y="440" width="24" height="28" fill="#111" rx="3"/>
+  <rect x="1188" y="572" width="24" height="28" fill="#111" rx="3"/>
+  
+  <!-- Watch cushions/pillows on bottom shelf -->
+  <ellipse cx="350" cy="850" rx="80" ry="40" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <ellipse cx="650" cy="850" rx="80" ry="40" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <ellipse cx="950" cy="850" rx="80" ry="40" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <ellipse cx="1250" cy="850" rx="80" ry="40" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  
+  <!-- Glass case reflection -->
+  <rect x="100" y="100" width="1400" height="1000" fill="url(#glass)" rx="4"/>
+  <line x1="200" y1="100" x2="400" y2="1100" stroke="white" opacity="0.03" stroke-width="80"/>
+  <line x1="1000" y1="100" x2="1200" y2="1100" stroke="white" opacity="0.02" stroke-width="60"/>
+  
+  <!-- Subtle spot lights from above -->
+  <ellipse cx="350" cy="150" rx="60" ry="20" fill="#D4AF37" opacity="0.1"/>
+  <ellipse cx="700" cy="150" rx="60" ry="20" fill="#D4AF37" opacity="0.1"/>
+  <ellipse cx="1050" cy="150" rx="60" ry="20" fill="#D4AF37" opacity="0.1"/>
+  <ellipse cx="800" cy="420" rx="80" ry="25" fill="#D4AF37" opacity="0.08"/>
+</svg>
